@@ -58,6 +58,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\admin_member.aspx" />
     <Content Include="Admin\admin_post.aspx" />
     <Content Include="Admin\post.aspx" />
     <Content Include="Common\detail.aspx" />
@@ -84,6 +85,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\admin_member.aspx.cs">
+      <DependentUpon>admin_member.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_member.aspx.designer.cs">
+      <DependentUpon>admin_member.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\admin_post.aspx.cs">
       <DependentUpon>admin_post.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
