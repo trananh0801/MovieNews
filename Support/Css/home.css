@@ -1,0 +1,172 @@
+﻿/*menu*/
+h1, p {
+    margin: 20px;
+    color: #666;
+    line-height: 1.75em;
+}
+
+.nav-horizontal {
+    background-color: #fff;
+    overflow: hidden;
+    height: 3em;
+    width: 100%;
+}
+.nav-horizontal .mask {
+    height: 5em;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.nav-horizontal .list {
+    display: inline-table;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.nav-horizontal .list li {
+    display: table-cell;
+}
+
+.nav-horizontal .list a {
+    display: block;
+    padding: 0 1em;
+    text-decoration: none;
+    color: #333;
+    height: 3em;
+    line-height: 3;
+}
+
+.nav-horizontal .list a:hover {
+    border-bottom: 2px solid #04AA6D;
+    background-color: #f9f9f9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+}
+
+
+/*header*/
+.header {
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+.logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100%;
+    margin-top: 10px;
+}
+.banner {
+    width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    max-height: 250px;
+}
+
+/*tin tuc phim*/
+.container {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #fff;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.img-movie {
+    width: 100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.img-movie:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    filter: brightness(50%);
+}
+.title {
+    padding: 10px;
+    color: #04AA6D;
+    border-left: 2px solid #04AA6D;
+    margin: 10px;
+}
+.item{
+    padding: 20px 20px 0px 20px;
+}
+.news-name {
+    margin: 0px 0px 20px 0px !important;
+    color: #555;
+}
+.news-name:hover {
+    color: #04AA6D;
+}
+.item a {
+    text-decoration: none;
+}
+
+
+/*footer*/
+.footer {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    background-color: #90EE90;
+    border-top: 2px solid #04AA6D;
+}
+.logo-footer {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100%;
+    margin-top: 10px;
+}
+.introduce {
+    width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+/*tao bai viet*/
+.container {
+    background-color: #F0FFFF;
+}
+.post {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin: 10px;
+}
+.column1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.column2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.enter {
+    height: 40px;
+    width: 100%;
+}
+.form {
+    margin: 20px 100px 100px 100px;
+    padding: 10px;
+    
+}
+
+.btn {
+    background-color: #04AA6D;
+    color: #fff;
+    padding: 5px;
+    border: none;
+}
+    .btn:hover {
+        background-color: #3CB371;
+    }

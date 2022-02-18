@@ -1,0 +1,7 @@
+F:\LapTrinhWeb\các bài tập lớn\MovieNews\bin\MovieNews.dll.config
+F:\LapTrinhWeb\các bài tập lớn\MovieNews\bin\MovieNews.dll
+F:\LapTrinhWeb\các bài tập lớn\MovieNews\bin\MovieNews.pdb
+F:\LapTrinhWeb\các bài tập lớn\MovieNews\obj\Debug\MovieNews.csproj.AssemblyReference.cache
+F:\LapTrinhWeb\các bài tập lớn\MovieNews\obj\Debug\MovieNews.csproj.CoreCompileInputs.cache
+F:\LapTrinhWeb\các bài tập lớn\MovieNews\obj\Debug\MovieNews.dll
+F:\LapTrinhWeb\các bài tập lớn\MovieNews\obj\Debug\MovieNews.pdb

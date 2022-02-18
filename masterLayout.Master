@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterLayout.master.cs" Inherits="MovieNews.masterLayout" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Movie News - Tin tức phim ảnh</title>
+    <link rel="stylesheet" href="/Support/Css/home.css">
+    <link rel="stylesheet" href="Support/fontawesome/css/all.min.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <img src="/Support/Img/logo.png" alt="logo" class="logo">
+            <img src="/Support/Img/banner.jpg" alt="banner" class="banner">
+        </div>
+        <div class="menu">
+            <nav class="nav-horizontal">
+                <div class="mask">
+                    <ul class="list">
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Phim chiếu rạp</a></li>
+                        <li><a href="#">Phim lẻ</a></li>
+                        <li><a href="#">Phim bộ</a></li>
+                        <li><a href="#">Tin mới nhất</a></li>
+                        <li><a href="#">Đăng nhập</a></li>
+                        <li><a href="#">Tìm kiếm</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="footer">
+            <img src="/Support/Img/logo.png" alt="logo" class="logo-footer">
+            <div class="introduce">
+                <p>Đôi khi bạn thấy một bộ phim đang phát hành và cảm thấy nó có vẻ rất thú vị nhưng không biết rõ nội dung của nó có phù hợp với mình không?</p>
+                <p>Bạn muốn biết nhận xét của những người từng xem nó? Hay đơn giản bạn chỉ muốn biết qua nội dung của bộ phim đó là gì trước khi bỏ thời gian ra xem</p>
+                <p>Đây là website review film tốt nhất mà MovieNews xin giới thiệu để bạn có thể tìm hiểu thông tin tham khảo.</p>
+                <p style="font-weight: 700;">Website được thực hiện bởi: Mai Hà, Mai Hi, Tran Anh</p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

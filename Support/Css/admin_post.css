@@ -1,0 +1,92 @@
+﻿/*menu-admin*/
+*{
+    font-family: sans-serif;
+    margin: 0px;
+}
+.menu-admin {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    background-color: #04AA6D;
+    color: #fff;
+    padding: 10px; 
+}
+.logo-admin {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.trangchu {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.user {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+
+/*main-admin*/
+.main-admin {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.menu-left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-right: 1px solid #555;
+}
+.content-right {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.quanlybv{
+    padding: 10px 0px 10px 20px;
+    border-bottom: 1px solid #555;
+}
+.quanlybv > a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+.quanlybv > a:hover {
+    color: #04AA6D;
+}
+.quanlytv {
+    padding: 10px 0px 10px 20px;
+    border-bottom: 1px solid #555;
+}
+.quanlytv > a {
+    text-decoration: none;
+    color: #000;
+}
+.quanlytv > a:hover {
+    color: #04AA6D;
+}
+.dsbv {
+    padding: 20px;
+}
+table {
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+td, th {
+    border: 1px solid #555;
+    text-align: left;
+    padding: 8px;
+}
+.sua {
+    background-color: #FF8C00;
+    color: #fff;
+}
+.xoa {
+    background-color: #B80000;
+    color: #fff;
+}
+.sua:hover {
+    background-color: #FFA500;
+}
+.xoa:hover {
+    background-color: #E00000;
+}
+th{
+    text-align: center;
+}
