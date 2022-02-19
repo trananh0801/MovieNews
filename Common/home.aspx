@@ -4,7 +4,7 @@
     <div class="container">
         <div class="title">
             <h2>
-                TIN MỚI NHẤT
+                TIN MỚI NHẤT 123
             </h2>
         </div>
         <div class="wrapper">
