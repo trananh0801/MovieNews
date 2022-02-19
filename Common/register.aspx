@@ -4,7 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>MovieNews - Đăng ký</title>
+    <link rel="shortcut icon" href="../Support/Img/logo.png" />
     <link rel="stylesheet" href="../Support/Css/login.css">
 </head>
 <body>
@@ -34,7 +35,7 @@
         </div>
 
         <div class="container" style="background-color: #f1f1f1">
-            <button type="button" class="cancelbtn">Đóng</button>
+            <button type="button" class="cancelbtn">Quay lại trang chủ</button>
         </div>
     </form>
 </body>

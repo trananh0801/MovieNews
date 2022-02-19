@@ -4,8 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>MovieNews - Đăng nhập</title>
     <link rel="stylesheet" href="../Support/Css/login.css">
+    <link rel="shortcut icon" href="../Support/Img/logo.png" />
     <script src="../Support/Js/login.js"></script>
 </head>
 <body>
@@ -19,7 +20,7 @@
             <input type="text" placeholder="Nhập tên đăng nhập" name="uname" required>
 
             <label for="psw"><b>Mật khẩu</b></label>
-            <input type="password" placeholder="Nhập password" name="psw" required>
+            <input type="password" placeholder="Nhập mật khẩu" name="psw" required>
 
             <button type="submit">Đăng nhập</button>
             <label>
@@ -29,7 +30,7 @@
         </div>
 
         <div class="container" style="background-color: #f1f1f1">
-            <button type="button" class="cancelbtn">Đóng</button>
+            <button type="button" class="cancelbtn">Quay lại trang chủ</button>
             <span class="psw">Quên <a href="#">mật khẩu?</a></span>
         </div>
     </form>

@@ -5,6 +5,7 @@
 <html>
 <head runat="server">
     <title>Movie News - Tin tức phim ảnh</title>
+    <link rel="shortcut icon" href="../Support/Img/logo.png" />
     <link rel="stylesheet" href="/Support/Css/home.css">
     <link rel="stylesheet" href="Support/fontawesome/css/all.min.css">
 </head>

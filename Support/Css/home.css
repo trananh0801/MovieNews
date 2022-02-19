@@ -57,6 +57,7 @@ body {
 .header {
     display: grid;
     grid-template-columns: 15% 85%;
+    background-color: #90EE90;
 }
 .logo {
     grid-column-start: 1;
@@ -167,6 +168,18 @@ body {
     padding: 5px;
     border: none;
 }
-    .btn:hover {
-        background-color: #3CB371;
-    }
+.btn:hover {
+    background-color: #3CB371;
+}
+
+
+/*search*/
+.btn-search {
+    width: 35px;
+    height: 50px;
+    background-color: #04AA6D;
+    border: none;
+}
+.btn-search:hover {
+    background-color: #00FF7F;
+}
